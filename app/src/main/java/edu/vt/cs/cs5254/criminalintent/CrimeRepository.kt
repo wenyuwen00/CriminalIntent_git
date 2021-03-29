@@ -19,14 +19,6 @@ class CrimeRepository private constructor(context: Context) {
                 super.onOpen(db)
                 executor.execute {
                     deleteAllCrimesInDatabase()
-
-                    for (i in 0..100) {
-                        val crime = Crime()
-
-                        crime.title = "Crime #$i"
-                        crime.isSolved = i % 2 == 0
-                        addCrime(crime)
-                    }
                 }
             }
         }
