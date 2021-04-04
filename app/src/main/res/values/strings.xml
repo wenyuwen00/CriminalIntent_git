@@ -6,4 +6,11 @@
     <string name="crime_solved_label">Solved</string>
     <string name="new_crime">New Crime</string>
     <string name="delete_all_crimes">Delete All Crimes</string>
+    <string name="crime_report_date">The crime was discovered on %s.</string>
+    <string name="crime_report_solved">The case is solved.</string>
+    <string name="crime_report_unsolved">The case is not solved.</string>
+    <string name="crime_report_no_suspect">There is no suspect.</string>
+    <string name="crime_report_suspect">The suspect is %s.</string>
+    <string name="crime_report_subject">CriminalIntent Crime Report</string>
+    <string name="send_report">Send crime report via</string>
 </resources>
